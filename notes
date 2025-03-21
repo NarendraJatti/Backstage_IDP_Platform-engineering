@@ -1,6 +1,14 @@
 productivity
 so many tools >>all in central place
 
+backend fanf frontend>>backstage 
+evverthing is plugin
+every plugin is a standalone website(frontend and backend)
+
+Materail UI(MUI) library>>pre build usable components
+
+check lambda deployment with bacstage
+
 Internal Developer portals(IDP)
 ==============
 catalog,documentation hub,ow nership tracking(services),templates,admin controls,searchablility ,
@@ -16,8 +24,18 @@ and node >backend
 plugin based architecture>>provides exitensibliity
 
 Feature
-==========
+==========>>core features
 software catalog
 templates>>resources request
+documentation >>use Mkdocs
+search>>in catalog,do external serach also
+plugins 
+
+all features are plugins
 
 
+
+catalog
+===========
+dependency tracking
+entity>keep track of -software,api,user/groups,resorucees etc,created useing yaml 

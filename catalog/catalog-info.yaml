@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component 
+metadata: 
+  name:  name
+  description: 
+  labels:
+    example.com/custome
+    annotations: 
+      example.com 
+
+    tags:
+      - java 
+    links:
+      - url: https://
+        title: Admin-dashboard
+        icon: dashboard 
+        type: amdin-dashboard
+spec: 
+  type: website 
+  lifecycle: production 
+  owner: artist
+  system: public-webisete
