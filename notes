@@ -1,3 +1,5 @@
+https://youtu.be/0rkSzN0XaAQ?si=5N5kXk0ABon_7oPn >>eks terraform
+
 productivity
 so many tools >>all in central place
 
@@ -35,7 +37,38 @@ all features are plugins
 
 
 
-catalog
+catalog(component)
 ===========
 dependency tracking
 entity>keep track of -software,api,user/groups,resorucees etc,created useing yaml 
+component should be associated with the system
+
+user
+====
+we can pull(sync) or integrate external users from git,ldap,sso etc
+In technology, treating something as a first-class citizen means that it is given the highest level of importance or priority, allowing it to be used or interacted with directly
+
+system
+=======
+is a collection of resources and components that expose one or serverl public apis
+component should be associated with the system
+compoentn shuld have an API
+
+
+domain
+=======
+business grouping or logical groouping
+
+resource>>is part of some system
+=======
+db,server,s3 bucket
+componet depends on resources 
+
+realtionsship
+==========
+ownedof ,ownedby
+group vs user
+parent vs child grooups
+define ownrship
+compent vs api
+compoent1 vs compoent2
