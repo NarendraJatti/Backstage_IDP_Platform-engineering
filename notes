@@ -1,3 +1,5 @@
+Backstage instance
+
 https://aws.amazon.com/blogs/opensource/building-developer-portals-with-backstage-and-amazon-eks-blueprints/
 
 https://github.com/awslabs/backstage-plugins-for-aws
@@ -13,6 +15,16 @@ https://www.youtube.com/watch?v=Ii-lpLuzPxw >>gitops
 https://www.youtube.com/live/mqhSmAFvQLw?si=XP-fXBebXLoQ03iK
 
 https://youtu.be/J5WpqeHWqQw?si=vTth2ZKOyF7zNZ66
+
+https://www.youtube.com/watch?v=qwEHVA9ObuA
+
+https://www.youtube.com/watch?v=iDOkgvz27iM
+https://www.youtube.com/watch?v=0rkSzN0XaAQ&t=517s
+https://youtu.be/nIxl2PcEs-0?si=RIHixwQn9jT3Szrb
+
+https://www.youtube.com/watch?v=QvhJvGzGm4w
+
+https://www.youtube.com/watch?v=2fCNqKxAtYo >cncf
 
 
 
@@ -38,6 +50,7 @@ productivity
 so many tools >>all in central place
 
 backend fanf frontend>>backstage 
+
 evverthing is plugin
 every plugin is a standalone website(frontend and backend)
 
@@ -106,3 +119,23 @@ parent vs child grooups
 define ownrship
 compent vs api
 compoent1 vs compoent2
+
+
+TECH docs and serach 
+===============
+mkdocs tool ,markdown files
+
+
+
+production
+============
+app-config.yaml>>backend>PG conection details
+by deafult BS stores all data in-memory-temporrory,restart cleans up data
+postgres db
+authentication>> using github,auth0 etc various identity providers
+user needs to be created before hand
+we can import all github users into backstage
+RBAC in bs possible??
+
+Backstage with docker
+=========

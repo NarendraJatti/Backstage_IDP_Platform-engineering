@@ -1,0 +1,56 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+    name: deploy-ec2-template 
+    title: deploying ec2 instance 
+spec: 
+    owner: user:guest 
+    type: service
+
+    paramaters: 
+        - title: EC2-deploy-project
+          required:
+            - name
+            - owner 
+          properties:
+            name:
+                title: name
+                type: string
+                description: unique name of the component
+                ui:autofocus: true
+            owner:
+              title: Owner
+              type: string
+              description:  owner of the component 
+              ui:field: OwnerPicker
+              ui:options:
+                catalogFilter:
+                    - kind: [User,Group]
+        - title: choose location
+          required:
+            - repoUrl
+          properties:
+            repoUrl:
+                title: Repository Location
+                type: string
+                ui:field: RepoUrlPicker
+                ui:options:
+                    allowedHosts:
+                    - github.com
+
+        - title: deploy ec2 
+          properties: 
+            instanceType: 
+            title: string
+            description: choose your ec2 type 
+            default: "t2.micro"
+            enum: 
+              - "t2.micro"
+              - "t2.small"
+              - "t2.medium"
+
+
+
+
+
+#1.clone/fetch code/config and 
