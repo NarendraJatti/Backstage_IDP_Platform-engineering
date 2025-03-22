@@ -1,6 +1,12 @@
 softaware catalog has enitity yaml file >place this at the root of your project folder(src) in git
 we can store this file in s3 also and import >>enitity file
 
+components should be associated with system 
+
+catalog rule>>should allow the types of enitity(user,systm.domain etc)
+to be imported/created ..
+
+
 deafult every 30mins to pull changes from github
 
 static configuration
@@ -13,3 +19,8 @@ catalog:
 you can also import enitity by registring through UI also or through template also we can import
 
 enitity providers:
+
+integrations:
+=================
+allow BS to read/publish data to github,s3 ,ldap etc 
+for private repo>>token to provided as env variabble 

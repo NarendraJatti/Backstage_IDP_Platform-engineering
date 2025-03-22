@@ -1,0 +1,26 @@
+template is an entity also 
+templates>>blueprint
+
+https://backstage.io/docs/features/software-templates/ui-options-examples/
+
+=======
+1)paramaters>inputs
+2) steps>logic
+3) output>disply info 
+
+deployment or new dev work>>many steps,1,2,3, etc,repeatative tasks/steps
+templates>autoamtes these steps,just clicke a button
+standardize,consistennc,guides new joinees,automation proccess.
+
+parameters filed> form ,input data
+steps filed>>all the steps 
+output>>give out info or results
+
+UI  component>>entiry picker >>drop down list of all the entities 
+owenr picker ,repourl picker 
+conditionals in the UI>>UI component dependency ,based on checkbox 
+
+nodejs ,python templates etc 
+s3 bucket,lambda deployment templates>>ask basic info
+centrazied templates,one location
+

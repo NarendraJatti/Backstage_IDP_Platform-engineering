@@ -1,0 +1,54 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+    name: poc-project
+    title: poc nodejs template
+    description: this a poc template for provisiong APIs with express
+spec: 
+    owner: user:guest 
+    type: service
+
+    paramaters: 
+        - title: poc-project info
+          required:
+            - name
+            - owner 
+          properties:
+            name:
+                title: name
+                type: string
+                description: unique name of the component
+                ui:autofocus: true
+            owner:
+              title: Owner
+              type: string
+              description:  owner of the component 
+              ui:field: OwnerPicker
+              ui:options:
+                catalogFilter:
+                    - kind: [User,Group]
+        - title: choose location
+          required:
+            - repoUrl
+          properties:
+            repoUrl:
+                title: Repository Location
+                type: string
+                ui:field: RepoUrlPicker
+                ui:options:
+                    allowedHosts:
+                    - github.com
+
+
+#1.clone/fetch code/config and perfomr templating
+#2.creaete repo and push code
+#3.register component with backstage
+
+    steps:
+      -id: fetch-base
+       name: fetch base
+       action:  fetch:template
+       input:
+        url: your-github-url
+      -id: publish
+      -id: register

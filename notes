@@ -1,4 +1,38 @@
+https://aws.amazon.com/blogs/opensource/building-developer-portals-with-backstage-and-amazon-eks-blueprints/
+
+https://github.com/awslabs/backstage-plugins-for-aws
+
 https://youtu.be/0rkSzN0XaAQ?si=5N5kXk0ABon_7oPn >>eks terraform
+
+https://www.youtube.com/watch?v=fH6-iDtPrz8 >>aws re-invent
+
+https://youtu.be/SZb24a1ccLY?si=PTr7iv_O9C9hwg9d >>aws
+
+https://www.youtube.com/watch?v=Ii-lpLuzPxw >>gitops
+
+https://www.youtube.com/live/mqhSmAFvQLw?si=XP-fXBebXLoQ03iK
+
+https://youtu.be/J5WpqeHWqQw?si=vTth2ZKOyF7zNZ66
+
+
+
+default 30mins refresh     
+
+app-config.yaml file is very cruicial
+
+restart dev server>>yarn dev
+
+restart bs server,if you make any changes
+
+database>>resource
+
+raltionship : API and component
+
+compoents realtions/depends/hierarchy
+
+if there is any mistake in yaml file in git,then backstage will throw error when you import
+this entity!!!!
+backstage also has caching,watin 2 3mins to fetch new changes  
 
 productivity
 so many tools >>all in central place
