@@ -5,6 +5,7 @@ metadata:
   description: POC example of a Backstage application.
   annotations:
     github.com/project-slug: NarendraJatti/Backstage_IDP_Platform-engineering
-  type: service 
+spec:
+  type: service
   owner: development
   lifecycle: experimental
