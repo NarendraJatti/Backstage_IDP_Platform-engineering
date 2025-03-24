@@ -9,6 +9,8 @@ Exploring platform engineering through Backstage
 
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/9239c8d3-c1dc-46b0-8671-6acc02beb614" />
 
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/f9619786-c616-44d1-9e2e-3b25352bb949" />
+
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/4ffff0e5-3aaf-409c-9eac-1cfc0d9a4c21" />
 
